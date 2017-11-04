@@ -4,7 +4,7 @@ def addsub(uncert, other_uncert):
     return (a + b) ** 0.5
 def divmult(value, uncert, other_value, other_uncert):
     a = (uncert / value) ** 2
-    b = (other_value / other_uncert) ** 2
+    b = (other_uncert / other_value) ** 2
     return (a + b) ** 0.5
 
 
